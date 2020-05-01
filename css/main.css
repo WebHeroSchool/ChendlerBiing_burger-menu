@@ -1,0 +1,49 @@
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	background-color: #E8A7DF;
+	padding: 0 0 0 15px; 
+}
+a{
+	margin-right: 30px;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 15px;
+}
+.a:nth-last-child{
+}
+.nav a:hover{
+	background-color: #279C8B;
+}
+@media all and (max-width: 600px){
+	a{ opacity: 0;
+}
+.hamburger {
+    margin: 0 auto;
+    margin: 10px 10px 0 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+.hamburger .bar {
+    padding: 0;
+    width: 30px;
+    height: 4px;
+    background-color: maroon;
+    display: block;
+    position: absolute; 
+}
+.bar1 {
+    top: 0;
+}
+.bar2,
+.bar3 {
+    top: 13.5px;
+}
+.bar3 {
+    right: 0;
+}
+.bar4 {
+    bottom: 0;
+}
